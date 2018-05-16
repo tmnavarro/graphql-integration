@@ -1,0 +1,29 @@
+{
+  "name": "graphql-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmnavarro/graphql-integration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmnavarro/graphql-integration/issues"
+  },
+  "homepage": "https://github.com/tmnavarro/graphql-integration#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "node-fetch": "^2.1.2",
+    "util": "^0.10.3",
+    "xml2js": "^0.4.19"
+  }
+}
